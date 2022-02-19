@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import ItsTimeToBeer from './components/ItsTimeToBeer.vue'
-
+  import ItsTimeToBeer from './components/ItsTimeToBeer.vue'
 </script>
 
 <template>
