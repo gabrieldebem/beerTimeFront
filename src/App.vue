@@ -4,7 +4,9 @@
 
 <template>
   <main>
-    <ItsTimeToBeer />
+    <div class="md:content-center">
+      <ItsTimeToBeer />
+    </div>
   </main>
 </template>
 
@@ -23,25 +25,13 @@ header {
   line-height: 1.5;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 640px) {
   body {
     display: flex;
     place-items: center;
