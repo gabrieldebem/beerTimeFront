@@ -1,14 +1,14 @@
-<script setup lang="ts">
-  import ItsTimeToBeer from './components/ItsTimeToBeer.vue'
-</script>
-
 <template>
   <main>
-    <div class="md:content-center">
+    <div>
       <ItsTimeToBeer />
     </div>
   </main>
 </template>
+
+<script setup lang="ts">
+import ItsTimeToBeer from './components/ItsTimeToBeer.vue';
+</script>
 
 <style>
 @import './assets/base.css';
